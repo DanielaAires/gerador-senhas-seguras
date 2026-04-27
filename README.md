@@ -44,7 +44,7 @@ gerador-senhas-seguras/
 ├── main.py
 ├── test_main.py
 └── README.md
-````
+```
 
 ## Como executar o projeto
 
@@ -67,6 +67,14 @@ Digite o tamanho da senha desejada (mínimo 8) ou 'sair' para encerrar: 12
 ```
 
 O sistema irá gerar uma senha segura com o tamanho informado.
+
+## Como instalar as dependências
+
+Para instalar as dependências do projeto, execute:
+
+```bash
+pip install -r requirements.txt
+```
 
 ## Como executar os testes
 
@@ -99,18 +107,30 @@ Senha: A7#kLm2@pQx!
 
 > Observação: a senha gerada será diferente a cada execução.
 
+## Comandos úteis com Makefile
+
+Caso tenha o `make` instalado, é possível executar:
+
+```bash
+make install
+make run
+make test
+```
+
 ## Aprendizados
 
 Com este projeto, foram praticados conceitos como:
 
 * Criação de funções em Python
 * Uso de bibliotecas nativas
-* Geração segura de senhas com `secrets`
+* Geração segura de senhas com secrets
 * Validação de entrada do usuário
 * Escrita de docstrings
 * Testes automatizados com Pytest
 * Organização de projeto no GitHub
 * Documentação com README
+* Criação de arquivo requirements.txt
+* Uso de Makefile para automatizar comandos do projeto
 
 ## Autora
 
